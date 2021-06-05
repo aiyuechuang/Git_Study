@@ -5,6 +5,6 @@ git commit . -m "update"
 git push
 git fetch upstream
 git checkout main
-git merge upstream/main
+git merge --no-edit upstream/main
 # git commit
 git push
